@@ -22,7 +22,7 @@ function Bmi() {
       }
       const result=[mass / (height * height)]*10000;
 
-      if( result > 0 || result < 120){
+      if( result > 0 && result < 120){
         e.preventDefault();
 
       
